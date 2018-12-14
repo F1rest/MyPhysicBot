@@ -10,7 +10,7 @@ from config import TOKEN
 def write_msg(user_id, text):
     vk_bot.method('messages.send', {'user_id': user_id, 'message': text})
 
-
+11
 
 
 vk_bot = vk_api.VkApi(token=TOKEN)
